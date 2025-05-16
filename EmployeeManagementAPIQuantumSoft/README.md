@@ -13,7 +13,18 @@ This project is a RESTful API built using ASP.NET Core Web API and Entity Framew
 ## API Endpoints
 - `GET /api/employee` - Get all employees (Admin, Manager roles) 
 - `POST /api/employee` - Create a new employee (Admin role only)
-- … (add other endpoints here)
+- PUT /api/employee/{id} - Update Employee  by id
+- DELETE /api/employee/{id} - Delete Employee by id
+- 
+- `GET /api/Role` - Get all Roles
+- `POST /api/Role` - Create a new Roles
+- PUT /api/Role/{id} - Update Roles  by id
+- DELETE /api/Role/{id} - Delete Roles by id
+- 
+- - `GET /api/Department` - Get all Departments  
+- `POST /api/Department` - Create a new Departments 
+- PUT /api/Department/{id} - Update Departments  by id
+- DELETE /api/Department/{id} - Delete Departments by id
 
 ## Authentication
 JWT-based authentication is implemented. Use the login endpoint to get your token.
