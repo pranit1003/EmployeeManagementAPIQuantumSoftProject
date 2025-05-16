@@ -17,8 +17,8 @@ This project is a RESTful API built using ASP.NET Core Web API and Entity Framew
 
 ## Authentication
 JWT-based authentication is implemented. Use the login endpoint to get your token.
-https://localhost:7168/api/Auth/login?username=Admin&password=Admin123
-https://localhost:7168/api/Auth/login?username=Manager&password=Manager123
+- https://localhost:7168/api/Auth/login?username=Admin&password=Admin123
+- https://localhost:7168/api/Auth/login?username=Manager&password=Manager123
 
 ## Technologies Used
 - ASP.NET Core 8.0
